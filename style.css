@@ -49,3 +49,31 @@ a {
     color: #FFFFFF; 
 
 }
+
+.span-text {
+    
+    font-weight: 700;
+
+}
+
+.position-button {
+    padding-left: 120px;
+}
+
+
+
+.top__button {
+    box-sizing: border-box;
+    width: 234.06px;
+    height: 48.6px;
+    background: #9C0332;
+    border-radius: 30px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+
+    color: #FFFFFF;
+}
