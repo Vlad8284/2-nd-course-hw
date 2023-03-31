@@ -34,13 +34,42 @@ i = i + 1;
 i = i - 1;
 alert(i);
 
-let age = prompt('Сколько вам лет?');
+let age = Number(prompt('Сколько вам лет?'));
 alert(age);
 
-const user = {
+
+
+
+
+
+const user =
+{
     name: 'Миша',
-    age: '35',
-    isAdmin: 'Yes or no ?'
+    age: Number(age),
+    isAdmin: Boolean(' ')
+    
 
 }
 
+user ['city of residence'] = 'Владимир';
+
+user ['(age = String)'] = true;
+
+delete user ['city of residence'];
+
+
+let info = prompt('Какую информацию хотите узнать о пользователе?');
+alert(user[info]);
+
+
+let name = prompt('Как, Ваше имя?');
+alert('Привет, ' + name + '!');
+
+
+    
+    
+  
+
+
+
+console.log(user.age = String); 
