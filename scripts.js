@@ -23,7 +23,7 @@ alert(y ** 5);
 a = a - 11;
 let b = 2;
 
-alert(a / b);
+alert(a % b);
 
 let i = 1;
 i = i + 5;
