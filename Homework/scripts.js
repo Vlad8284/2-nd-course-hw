@@ -25,13 +25,22 @@ let b = 2;
 
 alert(a % b);
 
+let num = 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num += 1;
+num -= 1;
+alert(num);
+
 let i = 1;
-i = i + 5;
-i = i - 3;
-i = i * 7;
-i = i / 3;
-i = i + 1;
-i = i - 1;
+i += 5;
+i -= 3;
+i *= 7;
+i /= 3;
+++i;
+--i;
 alert(i);
 
 let age = Number(prompt('Сколько вам лет?'));
