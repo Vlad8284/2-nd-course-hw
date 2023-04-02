@@ -54,15 +54,17 @@ alert(age);
 const user =
 {
     name: 'Миша',
-    age: Number(age),
-    isAdmin: Boolean(' ')
+    age: age,
+    isAdmin: false
     
 
 }
 
 user ['city of residence'] = 'Владимир';
 
-user ['(age = String)'] = true;
+user.age ['(age = String)'] = true; 
+console.log(user.age);
+console.log(user['age']);
 
 delete user ['city of residence'];
 
@@ -71,8 +73,9 @@ let info = prompt('Какую информацию хотите узнать о 
 alert(user[info]);
 
 
-let name = prompt('Как, Ваше имя?');
-alert('Привет, ' + name + '!');
+const name = prompt('Как, Ваше ИМЯ?');
+
+alert(`Привет, ${name} !`);
 
 
     
@@ -81,4 +84,4 @@ alert('Привет, ' + name + '!');
 
 
 
-console.log(user.age = String); 
+ 
