@@ -77,6 +77,14 @@ const name = prompt('Как, Ваше ИМЯ?');
 
 alert(`Привет, ${name} !`);
 
+let password = 'Hello Friend';
+let enterThePassword = String(prompt('Введите пароль'));
+
+if (password === 'Hello Friend') {
+    alert ('Пароль введен верно');
+} else {
+    alert ('Пароль введен неправильно');
+}
 
     
     
