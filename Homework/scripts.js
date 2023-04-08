@@ -86,9 +86,15 @@ if (password === 'Hello Friend') {
     alert ('Пароль введен неправильно');
 }
 
+let c = 20;
+
+if (c > 0 && c < 10) {
+   console.log('Верно'); 
+} else {
+   console.log('Не верно'); 
+}
     
-    
-  
+(c > 0 && c < 10) ? console.log('Верно') : console.log('Не верно');  
 
 
 
