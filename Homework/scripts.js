@@ -96,6 +96,9 @@ if (c > 0 && c < 10) {
     
 (c > 0 && c < 10) ? console.log('Верно') : console.log('Не верно');  
 
+let d = 250;
+let e = 50;
 
+(d > 100 || e > 100) ? console.log('Верно') : console.log('Не верно');
 
  
