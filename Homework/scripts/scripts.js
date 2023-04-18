@@ -73,3 +73,8 @@ switch (monthNumber) {
         console.log('номер месяца больше 13');
         break;
 }
+
+
+
+
+
