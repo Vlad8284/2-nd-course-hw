@@ -3,7 +3,7 @@
 let password = 'Hello Friend';
 let enterThePassword = String(prompt('Введите пароль'));
 
-if (password === 'Hello Friend') {
+if (password === enterThePassword) {
     alert('Пароль введен верно');
 } else {
     alert('Пароль введен неправильно');
