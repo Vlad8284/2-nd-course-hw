@@ -97,17 +97,17 @@ a {
 
 .game__one {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(img/Rectangle6.jpg);
+  background-image: url(img/Rectangle6.png);
 }
 
 .game__two {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(img/Rectangle7.jpg);
+  background-image: url(img/Rectangle7.png);
 }
 
 .game__three {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(img/Rectangle8.jpg);
+  background-image: url(img/Rectangle8.png);
 }
 
 .game-box {
@@ -168,5 +168,28 @@ a {
   .center {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .top__heading {
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .top__text {
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+  }
+  .position-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */
