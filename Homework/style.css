@@ -67,6 +67,7 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  transition: all 3s;
   color: #FFFFFF;
 }
 
@@ -126,6 +127,12 @@ a {
   padding-left: 32px;
   padding-bottom: 32px;
   box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.game-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #9C0332;
 }
 
 .link {
