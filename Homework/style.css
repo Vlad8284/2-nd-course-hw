@@ -70,6 +70,11 @@ a {
   color: #FFFFFF;
 }
 
+.top__button:hover {
+  background: #FFFFFF;
+  color: #9C0332;
+}
+
 .section-games {
   background-color: #000915;
   background-image: url(img/Rectangle5.jpg);
@@ -138,11 +143,7 @@ a {
   gap: 32px;
 }
 
-.link::-moz-placeholder {
-  text-decoration: underline;
-}
-
-.link::placeholder {
+.link:hover {
   text-decoration: underline;
 }
 

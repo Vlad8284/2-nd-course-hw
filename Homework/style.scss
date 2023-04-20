@@ -80,6 +80,10 @@ a {
     color: #FFFFFF;
 }
 
+.top__button:hover {
+    background: #FFFFFF;
+    color: #9C0332;
+}
 
 
 
@@ -158,7 +162,7 @@ a {
     gap: 32px;
 }
 
-.link::placeholder {
+.link:hover {
     text-decoration: underline;
 }
 
