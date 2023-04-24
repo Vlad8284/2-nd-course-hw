@@ -67,7 +67,13 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  transition: all 3s;
   color: #FFFFFF;
+}
+
+.top__button:hover {
+  background: #FFFFFF;
+  color: #9C0332;
 }
 
 .section-games {
@@ -97,17 +103,17 @@ a {
 
 .game__one {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(img/Rectangle6.jpg);
+  background-image: url(img/Rectangle6.png);
 }
 
 .game__two {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(img/Rectangle7.jpg);
+  background-image: url(img/Rectangle7.png);
 }
 
 .game__three {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-  background-image: url(img/Rectangle8.jpg);
+  background-image: url(img/Rectangle8.png);
 }
 
 .game-box {
@@ -121,6 +127,12 @@ a {
   padding-left: 32px;
   padding-bottom: 32px;
   box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.game-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #9C0332;
 }
 
 .link {
@@ -138,11 +150,7 @@ a {
   gap: 32px;
 }
 
-.link::-moz-placeholder {
-  text-decoration: underline;
-}
-
-.link::placeholder {
+.link:hover {
   text-decoration: underline;
 }
 
@@ -168,5 +176,28 @@ a {
   .center {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .top__heading {
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .top__text {
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+  }
+  .position-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */
