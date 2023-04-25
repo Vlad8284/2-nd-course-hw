@@ -60,7 +60,9 @@ while (n >= 50) {
 console.log(n);
 console.log(num);
 
-
+for (let aprilDay = 7; aprilDay <= 31; aprilDay += 7) {
+    console.log(`Сегодня пятница, ${aprilDay} -е число. Необходимо подготовить отчет.`);
+}
 
 
 
