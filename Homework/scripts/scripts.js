@@ -74,23 +74,40 @@ switch (monthNumber) {
         break;
 }
 
-for (let i = 0; i <= 2; i++) {console.log ("Привет!");}
+for (let i = 0; i <= 2; i++) { console.log("Привет!"); }
 
 let i = 1;
 
-while(i<=4){
-console.log(i);
-i=i+1;
+while (i <= 4) {
+    console.log(i);
+    i = i + 1;
 }
 
-do{
-console.log(i);
-i=i+1;
-}while(i<=4)
+do {
+    console.log(i);
+    i = i + 1;
+} while (i <= 4)
 
-for(i=1;i<=5;i++){
-console.log(i);
+for (i = 1; i <= 5; i++) {
+    console.log(i);
 }
+
+let k = 7;
+
+while (k <= 21) {
+    console.log(k);
+    k = k + 1;
+}
+
+do {
+    console.log(k);
+    k = k + 1;
+} while (k <= 21)
+
+for (k = 7; k <= 22; k++) {
+    console.log(k);
+}
+
 
 
 
