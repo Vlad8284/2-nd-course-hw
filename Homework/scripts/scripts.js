@@ -1,36 +1,47 @@
-for (let i = 0; i <= 2; i++) { console.log("Привет!"); }
+// Задание 1
 
-let i = 1;
+for (let i = 0; i < 2; i++) {console.log("Привет!");}
 
-while (i <= 4) {
-    console.log(i);
-    i = i + 1;
+// Задание 2
+
+let a = 1;
+
+while (a <= 4) {
+    console.log(a);
+    a = a + 1;
 }
+ 
+let j = 1;
 
 do {
-    console.log(i);
-    i = i + 1;
-} while (i <= 4)
+    console.log(j);
+    j = j + 1;
+} while (j <= 4)
 
-for (i = 1; i <= 5; i++) {
-    console.log(i);
+
+for (l = 1; l <= 5; l++) {
+    console.log(l);
 }
 
+// Задание 3
+ 
 let k = 7;
-
 while (k <= 21) {
     console.log(k);
     k = k + 1;
 }
 
+let h = 7;
 do {
-    console.log(k);
-    k = k + 1;
-} while (k <= 21)
+    console.log(h);
+    h = h + 1;
+} while (h <= 21)
 
-for (k = 7; k <= 22; k++) {
-    console.log(k);
+for (d = 7; d <= 22; d++) {
+    console.log(d);
 }
+
+// Задание 4
 
 const obj = {
 
@@ -42,13 +53,13 @@ const obj = {
 
 }
 
-
-
 for (const key in obj) {
 
     console.log(`${key} - зарплата ${obj[key]} долларов`);
 
 }
+
+// Задание 5
 
 let n = 1000;
 let num = 0;
@@ -59,6 +70,8 @@ while (n >= 50) {
 }
 console.log(n);
 console.log(num);
+
+// Задание 6
 
 for (let aprilDay = 7; aprilDay <= 31; aprilDay += 7) {
     console.log(`Сегодня пятница, ${aprilDay} -е число. Необходимо подготовить отчет.`);
