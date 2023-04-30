@@ -1,80 +1,81 @@
+// Задание 1
+
+for (let i = 0; i < 2; i++) {console.log("Привет!");}
+
+// Задание 2
+
+let a = 1;
+
+while (a <= 4) {
+    console.log(a);
+    a = a + 1;
+}
+ 
+let j = 1;
+
+do {
+    console.log(j);
+    j = j + 1;
+} while (j <= 4)
 
 
-let password = 'Hello Friend';
-let enterThePassword = String(prompt('Введите пароль'));
-
-if (password === enterThePassword) {
-    alert('Пароль введен верно');
-} else {
-    alert('Пароль введен неправильно');
+for (l = 1; l <= 5; l++) {
+    console.log(l);
 }
 
-let c = 20;
-
-if (c > 0 && c < 10) {
-    console.log('Верно');
-} else {
-    console.log('Не верно');
+// Задание 3
+ 
+let k = 7;
+while (k <= 21) {
+    console.log(k);
+    k = k + 1;
 }
 
-(c > 0 && c < 10) ? console.log('Верно') : console.log('Не верно');
+let h = 7;
+do {
+    console.log(h);
+    h = h + 1;
+} while (h <= 21)
 
-let d = 250;
-let e = 50;
-
-(d > 100 || e > 100) ? console.log('Верно') : console.log('Не верно');
-
-let a = '2';
-let b = '3';
-alert(+a + +b);
-
-
-
-
-
-let monthNumber = Number(prompt('Введите номер месяца'));
-
-
-
-switch (monthNumber) {
-
-    case 1:
-    case 2:
-    case 12:
-
-        console.log('Зима');
-
-        break;
-
-    case 3:
-    case 4:
-    case 5:
-
-        console.log('Весна');
-
-        break;
-
-    case 6:
-    case 7:
-    case 8:
-
-        console.log('Лето');
-
-        break;
-
-    case 9:
-    case 10:
-    case 11:
-
-        console.log('Осень');
-
-        break;
-    default:
-        console.log('номер месяца больше 13');
-        break;
+for (d = 7; d <= 22; d++) {
+    console.log(d);
 }
 
+// Задание 4
 
+const obj = {
+
+    Коля: 200,
+
+    Вася: 300,
+
+    Петя: 400,
+
+}
+
+for (const key in obj) {
+
+    console.log(`${key} - зарплата ${obj[key]} долларов`);
+
+}
+
+// Задание 5
+
+let n = 1000;
+let num = 0;
+
+while (n >= 50) {
+    n /= 2;
+    num++;
+}
+console.log(n);
+console.log(num);
+
+// Задание 6
+
+for (let aprilDay = 7; aprilDay <= 31; aprilDay += 7) {
+    console.log(`Сегодня пятница, ${aprilDay} -е число. Необходимо подготовить отчет.`);
+}
 
 
 
