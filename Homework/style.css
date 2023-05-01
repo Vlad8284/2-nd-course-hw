@@ -44,7 +44,7 @@ a {
   font-size: 18px;
   line-height: 32px;
   align-items: center;
-  padding-left: 120.22px;
+  padding-left: 120px;
   padding-bottom: 44px;
   color: #FFFFFF;
 }
@@ -160,6 +160,12 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.position-games_one {
+  padding-top: 282px;
+  padding-bottom: 282px;
+  box-sizing: border-box;
 }
 
 .position-picture {
