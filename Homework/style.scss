@@ -182,23 +182,23 @@ a {
     background-size: cover;
 }
 
-.position-games_one_top {
+.position_games_one_top {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
-    align-content: center;
+    align-content: center; 
 
 }
 
-.position-games_one {
+position-games_one {
     padding-top: 282px;
     padding-bottom: 282px;
     box-sizing: border-box;
 }
 
-.position-picture {
+position-picture {
     padding-top: 233.5px;
     padding-bottom: 233.5px;
     box-sizing: border-box;
