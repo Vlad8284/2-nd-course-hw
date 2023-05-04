@@ -1,6 +1,6 @@
 // Задание 1
 
-for (let i = 0; i < 2; i++) { console.log("Привет!"); }
+for (let i = 0; i < 2; i++) {console.log("Привет!");}
 
 // Задание 2
 
@@ -10,7 +10,7 @@ while (a <= 4) {
     console.log(a);
     a = a + 1;
 }
-
+ 
 let j = 1;
 
 do {
@@ -24,7 +24,7 @@ for (l = 1; l <= 5; l++) {
 }
 
 // Задание 3
-
+ 
 let k = 7;
 while (k <= 21) {
     console.log(k);
@@ -76,6 +76,3 @@ console.log(num);
 for (let aprilDay = 7; aprilDay <= 31; aprilDay += 7) {
     console.log(`Сегодня пятница, ${aprilDay} -е число. Необходимо подготовить отчет.`);
 }
-
-
-
