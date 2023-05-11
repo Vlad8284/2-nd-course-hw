@@ -182,75 +182,6 @@ a {
     background-size: cover;
 }
 
-.position_games_one_top {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
-    align-content: center;
-
-}
-
-.position-games_one {
-    padding-top: 282px;
-    padding-bottom: 282px;
-    box-sizing: border-box;
-}
-
-.footer__heading {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58.51px;
-    display: flex;
-    align-items: center;
-    padding-top: 282px;
-    padding-left: 120px;
-    padding-bottom: 32px;
-
-    color: #FFFFFF;
-}
-
-.footer__text {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    align-items: center;
-    padding-left: 120px;
-    padding-bottom: 32px;
-
-    color: #FFFFFF;
-
-}
-
-.position-picture {
-    padding-top: 233.5px;
-    padding-bottom: 233.5px;
-    box-sizing: border-box;
-}
-
-.footer__button {
-    box-sizing: border-box;
-    width: 234.06px;
-    height: 48.6px;
-    background: #9C0332;
-    border-radius: 30px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    transition: all 3s;
-
-    color: #FFFFFF;
-}
-
-.footer__button:hover {
-    background: #FFFFFF;
-    color: #9C0332;
-}
 
 @media (min-width: 1024px) and (max-width: 1234px) {
 
@@ -276,4 +207,6 @@ a {
     }
 }
 
-@import 'mobil
+@import 'mobile'
+
+@import 'gameone'
